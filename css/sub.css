@@ -1,14 +1,14 @@
 * { margin: 0; padding: 0;};
 .clearfix ::before, .clearfix::after {clear: both; content: ''; display: block;}
-#wrapper { width: 100%; margin: 0 auto;}
+#wrapper { width: 100%; margin: 0 auto; height: 1900px;}
 #header { width: 100%; height: 400px;}
 .topheader a{padding-right: 1%; text-decoration: none; color:white; display: inline-block; border-right: 1px solid white; font-size: 13px; font-weight: bold;}
-.topheader {width: 80%; height: 10px; margin-right: 10%; margin-left: 10%; padding: 20px;}
+.topheader {width: 80%; margin-left: 10%; height: 10px; padding: 20px;}
 .topheader a:hover {text-decoration:white solid 1px}
 .midheader {padding-top: 10px; border-top: 1px solid white;}
-.midheader article {margin-left: 10%; width:40%; height: 150px; float:left;}
+.midheader article {margin-left: 12%; width:40%; height: 150px; float:left;}
 .midheader article a{ text-decoration: none; color:white; font-size: 20px; font-weight: bold;}
-.midheader .nav {width: 50%; height: 150px; float: left;}
+.midheader .nav {width: 40%; height: 150px; float: left;}
 .mainmenu li {list-style-type: none;display: inline-block; padding: 15px;}
 .mainmenu a{color:white; font-size: 15px;font-weight: bold; text-decoration: none;}
 .mainmenu li ul li{display: block; color: gray; background-color: white;}
@@ -18,11 +18,22 @@
 .midheader .big a {color: white; padding: 45%; font-weight: bolder; font-size: 35px;}
 
 #section .top{width: 100%; height: 50px; background-color: white; border: 1px solid rgb(231, 221, 221);}
-#section .top div{float: left; margin-left: 15%; width :5%; height: 50px; border-left:1px solid rgb(231, 221, 221); border-right:1px solid rgb(231, 221, 221); text-align: center;}
-#section .top a {font-weight: 300; font-size: 20px; color: black; text-decoration: none; line-height: 250%;}
+#section .top div{float: left; margin-left: 15%; width :5%; height: 50px; border-left:1px solid rgb(231, 221, 221); border-right:1px solid rgb(189, 185, 185); text-align: center;}
+#section .top a {font-weight: 500; font-size: 18px; color: black; text-decoration: none; line-height: 250%;}
 #section .top article {float: left; width : 20%; height: 50px;}
 
 #section .mid {width: 100%; height: 1000px; background-color: white;}
 .mid-top { padding-top: 2%; width: 100%; margin-left: 15%; margin-right: 15%;}
-.mid-top ul li{margin-left: 1%;}
-.mid-bot { padding-top: 2%; width: 100%; margin-left: 15%; margin-right: 15%;}
+.mid-top ul li{margin-left: 1%; font-size: 14px; font-weight: 500;}
+.mid-top ul {letter-spacing: -2px;}
+.mid-mid {margin-top: 1%; width: 70%; height: 50px; margin-left: 15%; background-color: rgb(221, 221, 221); padding-left: 3%; padding-top: 2%; font-size: 13px; font-weight: 500;}
+.mid-bot {margin-top: 1%; width: 70%; height: 50px; margin-left: 15%; margin-top: 2%;}
+.mid-bot button {border-style: none; background-color: white; font-size: 13px; font-weight: 500;}
+.tables {margin-top: 1%; width: 70%; height: 260px; margin-left: 15%;}
+.tables table { border-collapse: collapse; margin-top: 1%; border:1px solid rgb(231, 221, 221); border-top: 2px solid black;}
+.tables table thead th{height: 40px; width: 2%; border:1px solid rgb(231, 221, 221); background-color: rgb(239, 239, 252);}
+.tables table tbody td {height: 40px; border:1px solid rgb(231, 221, 221); padding-left: 2%;}
+
+#footer {width: 100%;}
+#footer .illusion {width: 100%; height: 300px;}
+#footer .laste {width: 100%; height: auto; background-color: black;}
