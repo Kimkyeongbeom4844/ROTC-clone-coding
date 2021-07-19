@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0;};
+.clearfix ::before, .clearfix::after {clear: both; content: ''; display: block;}
+#wrapper { width: 100%; margin: 0 auto;}
+#header { width: 100%; height: 400px;}
+.topheader a{padding-right: 1%; text-decoration: none; color:white; display: inline-block; border-right: 1px solid white; font-size: 13px; font-weight: bold;}
+.topheader {width: 80%; height: 10px; margin-right: 10%; margin-left: 10%; padding: 20px;}
+.topheader a:hover {text-decoration:white solid 1px}
+.midheader {padding-top: 10px; border-top: 1px solid white;}
+.midheader article {margin-left: 10%; width:40%; height: 150px; float:left;}
+.midheader article a{ text-decoration: none; color:white; font-size: 20px; font-weight: bold;}
+.midheader .nav {width: 50%; height: 150px; float: left;}
+.mainmenu li {list-style-type: none;display: inline-block; padding: 15px;}
+.mainmenu a{color:white; font-size: 15px;font-weight: bold; text-decoration: none;}
+.mainmenu li ul li{display: block; color: gray; background-color: white;}
+.mainmenu li ul {display: none;}
+
+.midheader section {clear: both; width: 100%; height: 150px;}
+.midheader .big a {color: white; padding: 45%; font-weight: bolder; font-size: 35px;}
+
+#section .top{width: 100%; height: 50px; background-color: white; border: 1px solid rgb(231, 221, 221);}
+#section .top div{float: left; margin-left: 15%; width :5%; height: 50px; border-left:1px solid rgb(231, 221, 221); border-right:1px solid rgb(231, 221, 221); text-align: center;}
+#section .top a {font-weight: 300; font-size: 20px; color: black; text-decoration: none; line-height: 250%;}
+#section .top article {float: left; width : 20%; height: 50px;}
+
+#section .mid {width: 100%; height: 1000px; background-color: white;}
+.mid-top { padding-top: 2%; width: 100%; margin-left: 15%; margin-right: 15%;}
+.mid-top ul li{margin-left: 1%;}
+.mid-bot { padding-top: 2%; width: 100%; margin-left: 15%; margin-right: 15%;}
